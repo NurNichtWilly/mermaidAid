@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "mermaidaid": "./dist/cli.js"
+    "mermaidaid": "dist/cli.js"
   },
   "files": [
     "dist/",
@@ -25,7 +25,20 @@
     "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mermaid", "diagrams", "flowchart", "visualization", "DSL", "sequence", "class", "typescript", "cli", "diagram-generator", "chart", "workflow"],
+  "keywords": [
+    "mermaid",
+    "diagrams",
+    "flowchart",
+    "visualization",
+    "DSL",
+    "sequence",
+    "class",
+    "typescript",
+    "cli",
+    "diagram-generator",
+    "chart",
+    "workflow"
+  ],
   "author": "MermaidAid Contributors",
   "license": "MIT",
   "type": "commonjs",

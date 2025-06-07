@@ -90,8 +90,8 @@ output.mmd
 test*.mad
 !examples/**/*.mad
 
-# Build artifacts
-dist/
+# Build artifacts (dist is needed for npm package)
+# dist/  # Commented out - we need dist/ for npm publishing
 build/
 out/
 
