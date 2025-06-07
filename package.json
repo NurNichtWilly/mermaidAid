@@ -1,0 +1,38 @@
+{
+  "name": "mermaidaid",
+  "version": "1.0.0",
+  "description": "A simplified language for creating Mermaid diagrams",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mermaidaid": "./dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "docs/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mermaid", "diagrams", "flowchart", "visualization", "DSL", "sequence", "class", "typescript", "cli", "diagram-generator", "chart", "workflow"],
+  "author": "MermaidAid Contributors",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

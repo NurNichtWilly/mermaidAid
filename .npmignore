@@ -1,0 +1,64 @@
+# Source files (keep only compiled output)
+src/
+tsconfig.json
+
+# Development configuration
+.vscode/
+.nvmrc
+nodemon.json
+
+# Test files
+test*.js
+test*.mad
+*.test.*
+*.spec.*
+
+# Environment and cache
+.env*
+.cache/
+.nyc_output/
+coverage/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts (keep dist/)
+build/
+out/
+
+# Git
+.git/
+.gitignore
+
+# Include these important files:
+# LICENSE (auto-included)
+# README.md (auto-included)
+# package.json (auto-included)
+# dist/ (our compiled output)
+# docs/ (documentation)
+# examples/ (sample files)
